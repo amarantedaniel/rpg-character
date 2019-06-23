@@ -1,8 +1,11 @@
 import SwiftUI
 
 struct ContentView : View {
+
+    @State var healthPoints = HealthPoints(current: 10, total: 10)
+    
     var body: some View {
-        HealthBar()
+        HealthBar(healthPoints: healthPoints).padding()
     }
 }
 
