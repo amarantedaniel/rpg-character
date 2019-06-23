@@ -2,7 +2,7 @@ import SwiftUI
 
 struct HealthBar : View {
     
-    var healthPoints: HealthPoints
+    let healthPoints: HealthPoints
     
     var body: some View {
         HStack(spacing: 2) {
