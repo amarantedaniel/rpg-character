@@ -1,10 +1,5 @@
 import SwiftUI
 
-struct HealthPoints {
-    var current: Int
-    var total: Int
-}
-
 struct HealthBar : View {
     
     var healthPoints: HealthPoints
@@ -22,7 +17,7 @@ struct HealthBar : View {
     }
     
     private func healthPointColor(index: Int) -> Color {
-        if index <= healthPoints.current {
+        if index + 1 <= healthPoints.current {
             return Color.green
         }
         return Color.gray

@@ -16,6 +16,7 @@
 		9876F68722BFDB5E0014B920 /* rpg_characterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F68622BFDB5E0014B920 /* rpg_characterTests.swift */; };
 		9876F69222BFDB5F0014B920 /* rpg_characterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F69122BFDB5F0014B920 /* rpg_characterUITests.swift */; };
 		9876F6A122BFDB9D0014B920 /* HealthBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F6A022BFDB9D0014B920 /* HealthBar.swift */; };
+		9876F6A422BFE9090014B920 /* HealthPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F6A322BFE9090014B920 /* HealthPoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9876F69122BFDB5F0014B920 /* rpg_characterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rpg_characterUITests.swift; sourceTree = "<group>"; };
 		9876F69322BFDB5F0014B920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9876F6A022BFDB9D0014B920 /* HealthBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthBar.swift; sourceTree = "<group>"; };
+		9876F6A322BFE9090014B920 /* HealthPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthPoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		9876F66E22BFDB5D0014B920 /* rpg-character */ = {
 			isa = PBXGroup;
 			children = (
+				9876F6A222BFE8FA0014B920 /* Data */,
 				9876F69F22BFDB890014B920 /* Component */,
 				9876F66F22BFDB5D0014B920 /* AppDelegate.swift */,
 				9876F67122BFDB5D0014B920 /* SceneDelegate.swift */,
@@ -145,6 +148,14 @@
 				9876F6A022BFDB9D0014B920 /* HealthBar.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		9876F6A222BFE8FA0014B920 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9876F6A322BFE9090014B920 /* HealthPoints.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +293,7 @@
 				9876F6A122BFDB9D0014B920 /* HealthBar.swift in Sources */,
 				9876F67222BFDB5D0014B920 /* SceneDelegate.swift in Sources */,
 				9876F67422BFDB5D0014B920 /* ContentView.swift in Sources */,
+				9876F6A422BFE9090014B920 /* HealthPoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
