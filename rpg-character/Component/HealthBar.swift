@@ -17,10 +17,22 @@ struct HealthBar : View {
     }
     
     private func healthPointColor(index: Int) -> Color {
-        if index + 1 <= healthPoints.current {
+        return isHealthPointValid(index: index) ? colorForValidPoint() : Color.gray
+    }
+    
+    private func isHealthPointValid(index: Int) -> Bool {
+        return index + 1 <= healthPoints.current
+    }
+    
+    private func colorForValidPoint() -> Color {
+        switch healthPoints.dangerLevel() {
+        case .danger:
+            return Color.red
+        case .caution:
+            return Color.yellow
+        case .safe:
             return Color.green
         }
-        return Color.gray
     }
 }
 

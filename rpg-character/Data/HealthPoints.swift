@@ -15,6 +15,18 @@ struct HealthPoints {
             current -= 1
         }
     }
+    
+    func percentage() -> Int {
+        return current * 100 / total
+    }
+    
+    func dangerLevel() -> DangerLevel {
+        return DangerLevel.levelFor(healthPoints: self)
+    }
+    
+    func isInDanger() -> Bool {
+        return current <= total * 30 / 100
+    }
 }
 
 extension HealthPoints: CustomStringConvertible {

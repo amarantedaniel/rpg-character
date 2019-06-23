@@ -17,6 +17,7 @@
 		9876F69222BFDB5F0014B920 /* rpg_characterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F69122BFDB5F0014B920 /* rpg_characterUITests.swift */; };
 		9876F6A122BFDB9D0014B920 /* HealthBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F6A022BFDB9D0014B920 /* HealthBar.swift */; };
 		9876F6A422BFE9090014B920 /* HealthPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F6A322BFE9090014B920 /* HealthPoints.swift */; };
+		9876F6A622BFECDC0014B920 /* DangerLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F6A522BFECDC0014B920 /* DangerLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9876F69322BFDB5F0014B920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9876F6A022BFDB9D0014B920 /* HealthBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthBar.swift; sourceTree = "<group>"; };
 		9876F6A322BFE9090014B920 /* HealthPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthPoints.swift; sourceTree = "<group>"; };
+		9876F6A522BFECDC0014B920 /* DangerLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				9876F6A322BFE9090014B920 /* HealthPoints.swift */,
+				9876F6A522BFECDC0014B920 /* DangerLevel.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9876F67022BFDB5D0014B920 /* AppDelegate.swift in Sources */,
+				9876F6A622BFECDC0014B920 /* DangerLevel.swift in Sources */,
 				9876F6A122BFDB9D0014B920 /* HealthBar.swift in Sources */,
 				9876F67222BFDB5D0014B920 /* SceneDelegate.swift in Sources */,
 				9876F67422BFDB5D0014B920 /* ContentView.swift in Sources */,
