@@ -18,6 +18,7 @@
 		9876F6A122BFDB9D0014B920 /* HealthBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F6A022BFDB9D0014B920 /* HealthBar.swift */; };
 		9876F6A422BFE9090014B920 /* HealthPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F6A322BFE9090014B920 /* HealthPoints.swift */; };
 		9876F6A622BFECDC0014B920 /* DangerLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F6A522BFECDC0014B920 /* DangerLevel.swift */; };
+		9876F6A822BFEFA30014B920 /* DeathSaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F6A722BFEFA30014B920 /* DeathSaves.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		9876F6A022BFDB9D0014B920 /* HealthBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthBar.swift; sourceTree = "<group>"; };
 		9876F6A322BFE9090014B920 /* HealthPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthPoints.swift; sourceTree = "<group>"; };
 		9876F6A522BFECDC0014B920 /* DangerLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerLevel.swift; sourceTree = "<group>"; };
+		9876F6A722BFEFA30014B920 /* DeathSaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathSaves.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				9876F6A022BFDB9D0014B920 /* HealthBar.swift */,
+				9876F6A722BFEFA30014B920 /* DeathSaves.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				9876F6A622BFECDC0014B920 /* DangerLevel.swift in Sources */,
 				9876F6A122BFDB9D0014B920 /* HealthBar.swift in Sources */,
 				9876F67222BFDB5D0014B920 /* SceneDelegate.swift in Sources */,
+				9876F6A822BFEFA30014B920 /* DeathSaves.swift in Sources */,
 				9876F67422BFDB5D0014B920 /* ContentView.swift in Sources */,
 				9876F6A422BFE9090014B920 /* HealthPoints.swift in Sources */,
 			);

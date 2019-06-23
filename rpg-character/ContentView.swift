@@ -6,13 +6,13 @@ struct ContentView : View {
     
     var body: some View {
         VStack {
-            HealthBar(healthPoints: healthPoints).padding()
+            HealthBar(healthPoints: healthPoints)
             Stepper(
                 onIncrement: { self.healthPoints.increment() },
                 onDecrement: { self.healthPoints.decrement() },
-                label: { Text("Count is \(self.healthPoints.current)") }
+                label: { Text(self.healthPoints.description) }
             )
-        }
+        }.padding()
     }
 }
 
