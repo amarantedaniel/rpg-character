@@ -18,7 +18,7 @@ struct DeathSavesBar : View {
                     DeathSave(checked: index < self.deathSaves.failure, type: .failure)
                 }
             }
-        }
+        }.animation(Animation.basic())
     }
 }
 

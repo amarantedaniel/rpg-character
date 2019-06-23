@@ -1,28 +1,27 @@
 import SwiftUI
 
 struct ContentView : View {
-
-    @State var healthPoints = HealthPoints(current: 10, total: 10)
-    @State var deathSaves = DeathSaves()
+    
+    @State var character = Character()
     
     var body: some View {
         VStack {
-            HealthBar(healthPoints: healthPoints)
+            HealthBar(healthPoints: character.healthPoints)
             Stepper(
-                onIncrement: { self.healthPoints.increment() },
-                onDecrement: { self.healthPoints.decrement() },
-                label: { Text(self.healthPoints.description) }
+                onIncrement: { self.character.healthPoints.increment() },
+                onDecrement: { self.character.healthPoints.decrement() },
+                label: { Text(self.character.healthPoints.description) }
             )
-            DeathSavesBar(deathSaves: deathSaves)
+            DeathSavesBar(deathSaves: character.deathSaves)
             Stepper(
-                onIncrement: { self.deathSaves.increment(type: .success) },
-                onDecrement: { self.deathSaves.decrement(type: .success) },
-                label: { Text("Successes: \(deathSaves.success)") }
+                onIncrement: { self.character.deathSaves.increment(type: .success) },
+                onDecrement: { self.character.deathSaves.decrement(type: .success) },
+                label: { Text("Successes: \(character.deathSaves.success)") }
             )
             Stepper(
-                onIncrement: { self.deathSaves.increment(type: .failure) },
-                onDecrement: { self.deathSaves.decrement(type: .failure) },
-                label: { Text("Failures: \(deathSaves.failure)") }
+                onIncrement: { self.character.deathSaves.increment(type: .failure) },
+                onDecrement: { self.character.deathSaves.decrement(type: .failure) },
+                label: { Text("Failures: \(character.deathSaves.failure)") }
             )
         }.padding()
     }

@@ -14,6 +14,7 @@ struct HealthBar : View {
             .background(Color.black)
             .border(Color.black, width: 2, cornerRadius: 5)
             .cornerRadius(5)
+            .animation(Animation.basic())
     }
     
     private func healthPointColor(index: Int) -> Color {
