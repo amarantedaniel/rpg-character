@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  rpg-character
-//
-//  Created by Daniel Amarante on 6/23/19.
-//  Copyright © 2019 Tigerhood. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

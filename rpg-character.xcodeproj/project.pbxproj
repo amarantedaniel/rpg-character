@@ -15,6 +15,7 @@
 		9876F67C22BFDB5E0014B920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9876F67A22BFDB5E0014B920 /* LaunchScreen.storyboard */; };
 		9876F68722BFDB5E0014B920 /* rpg_characterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F68622BFDB5E0014B920 /* rpg_characterTests.swift */; };
 		9876F69222BFDB5F0014B920 /* rpg_characterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F69122BFDB5F0014B920 /* rpg_characterUITests.swift */; };
+		9876F6A122BFDB9D0014B920 /* HealthBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876F6A022BFDB9D0014B920 /* HealthBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9876F68D22BFDB5F0014B920 /* rpg-characterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rpg-characterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9876F69122BFDB5F0014B920 /* rpg_characterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rpg_characterUITests.swift; sourceTree = "<group>"; };
 		9876F69322BFDB5F0014B920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9876F6A022BFDB9D0014B920 /* HealthBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		9876F66E22BFDB5D0014B920 /* rpg-character */ = {
 			isa = PBXGroup;
 			children = (
+				9876F69F22BFDB890014B920 /* Component */,
 				9876F66F22BFDB5D0014B920 /* AppDelegate.swift */,
 				9876F67122BFDB5D0014B920 /* SceneDelegate.swift */,
 				9876F67322BFDB5D0014B920 /* ContentView.swift */,
@@ -134,6 +137,14 @@
 				9876F69322BFDB5F0014B920 /* Info.plist */,
 			);
 			path = "rpg-characterUITests";
+			sourceTree = "<group>";
+		};
+		9876F69F22BFDB890014B920 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				9876F6A022BFDB9D0014B920 /* HealthBar.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9876F67022BFDB5D0014B920 /* AppDelegate.swift in Sources */,
+				9876F6A122BFDB9D0014B920 /* HealthBar.swift in Sources */,
 				9876F67222BFDB5D0014B920 /* SceneDelegate.swift in Sources */,
 				9876F67422BFDB5D0014B920 /* ContentView.swift in Sources */,
 			);
